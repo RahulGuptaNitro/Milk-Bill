@@ -8,12 +8,12 @@ Built an app to calculate the bill of milk purchased. Built it using Flutter in 
 
 
 Dependencies used:
-'''
+```
 table_calendar
 shared_preferences
-'''
+```
 
-[View Project!](https://rahulguptanitro.github.io/Milk-Bill/).
+[View Project](https://rahulguptanitro.github.io/Milk-Bill/)!
 
 
-*** © RahulGuptaNitro *** 
+***© RahulGuptaNitro*** 
