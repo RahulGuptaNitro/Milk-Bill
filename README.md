@@ -2,7 +2,7 @@
 
 <br/>
 
-> This app is built using Flutter & this repository contain main.dart file only.
+> **This app is built using Flutter & this repository contain main.dart file only.**
 
 
 ### Description
