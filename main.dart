@@ -1,3 +1,9 @@
+/*
+© RahulGuptaNitro
+To view project visit https://rahulguptanitro.github.io/
+*/
+
+
 import 'package:flutter/material.dart';
 import 'package:intl/date_symbol_data_local.dart';
 import 'package:table_calendar/table_calendar.dart';
@@ -27,7 +33,6 @@ class MyHomePage extends StatefulWidget {
   @override
   _MyHomePageState createState() => _MyHomePageState();
 }
-
 
 class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
   Map<DateTime, List> _events;
@@ -86,6 +91,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
     _calendarController.dispose();
     super.dispose();
   }
+  
   _loadCounter() async {
     try {
       SharedPreferences prefs = await SharedPreferences.getInstance();
@@ -104,6 +110,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
       print(e);
     }
   }
+  
   storage() async{
     var s=_events.keys.toList();
     int x=s.length;
@@ -121,6 +128,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
       prefs.setStringList('value', b);
     });
   }
+  
   void _onDaySelected(DateTime day, List events) {
     sel=day.toString().substring(0,10);
     quanholder.clear();
