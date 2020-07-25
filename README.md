@@ -14,6 +14,7 @@ shared_preferences
 ```
 
 <br/>
-[View Project](https://rahulguptanitro.github.io/Milk-Bill/)!
+
+[View Project!](https://rahulguptanitro.github.io/Milk-Bill/)
 
 ***© RahulGuptaNitro*** 
